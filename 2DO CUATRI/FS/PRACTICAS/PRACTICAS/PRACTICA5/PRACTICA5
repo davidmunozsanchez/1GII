@@ -1,0 +1,27 @@
+#!/bin/bash
+# Titulo:       practica3
+# Fecha:        31/3/2020
+# Autor:        David Muñoz Sánchez
+# Versión:      1.0
+# Descripción:  Guion para la práctica 5
+# Opciones:     Ninguna
+# Uso:          
+until [[ $opc == 4 ]]
+do
+    printf "Seleccione opción: \n1) Sumar\n2) Restar\n3) Producto\n4) Salir\nELija la opción deseada: "
+    read opc
+    case "$opc" in
+            1)  printf "Introduce dos numeros para sumar: "
+                read num1 num2
+                printf "La suma de $num1 y $num2 es $[$num1 + $num2]\n\n";;
+                
+            2)  printf "Introduce dos numeros para restar: "
+                read num1 num2
+                printf "La resta de $num1 y $num2 es $[$num1 - $num2]\n\n";;
+                
+            3)  printf "Introduce dos numeros para multiplicar: "
+                read num1 num2
+                printf "El prodcuto de $num1 y $num2 es $[$num1 * $num2]\n\n";;
+    esac
+done
+

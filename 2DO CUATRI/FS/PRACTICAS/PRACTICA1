@@ -1,0 +1,14 @@
+1.  mkdiv -p mnt home/{luis,pedro} //PARA CREAR LOS DIRECTORIOS
+    touch home/luis/Carta.txt     //PARA EL ARCHIVO
+    
+2. rm -r luis/Carta.txt //BORRADO RECURSIVO
+
+3. ls C*.*x
+
+
+DAVID MUÑOZ SÁNCHEZ 1ºDGIIM
+
+
+
+
+

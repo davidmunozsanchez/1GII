@@ -1,0 +1,23 @@
+#!/bin/bash
+# Titulo:       practica3
+# Fecha:        15/3/2020
+# Autor:        David Muñoz Sánchez
+# Versión:      1.0
+# Descripción:  Guion para la práctica 4
+# Opciones:     Ninguna
+# Uso:          
+
+
+a=$1
+b=$2
+es_numero='^[0-9]+$'
+
+
+echo $actual
+
+if ! [[ $a =~ $es_numero ]] ; then echo $a no es un numero && exit 1 ; fi
+if ! [[ $b =~ $es_numero ]] ; then echo $b no es un numero && exit 1 ; fi
+
+if [ $a == $b ] ; then
+      variable1=`ls .` && echo $variable1 && pwd  ; else
+      variable2=`ls $HOME` && echo $variable2 && echo $HOME ; fi

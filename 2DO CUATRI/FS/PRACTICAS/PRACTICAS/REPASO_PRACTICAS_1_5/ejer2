@@ -1,0 +1,11 @@
+#!/bin/bash
+# Titulo:       practicas1-5
+# Fecha:        14/4/2020
+# Autor:        David Muñoz Sánchez
+# Versión:      1.0
+# Descripción:  Guiones para las prácticas de repaso 1 - 5
+# Opciones:     Ninguna
+# Uso:          
+
+
+mkdir -p curso_1920/{cuatrimestre_1,cuatrimestre_2}

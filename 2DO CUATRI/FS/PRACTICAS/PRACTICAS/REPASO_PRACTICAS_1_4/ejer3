@@ -1,0 +1,16 @@
+#!/bin/bash
+# Titulo:       practicas1-4
+# Fecha:        21/3/2020
+# Autor:        David Muñoz Sánchez
+# Versión:      1.0
+# Descripción:  Guiones para las prácticas de repaso 1 - 4
+# Opciones:     Ninguna
+# Uso:          
+
+
+#ANIADO UNA LINEA PARA IR AL DIRECTORIO EJERCICIO 1
+cd /home/davidms_83/repaso/prueba1/ejercicio1
+
+#COMIENZA EL EJERCICIO
+#EN VEZ DE EXPRESIONES VOY A BUSCAR EXPRESSIONS, YA QUE AL EJECUTAR let --help, ME SALE TODO EN INGLES
+let --help | grep "expressions" > arch1.txt

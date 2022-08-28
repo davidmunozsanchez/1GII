@@ -1,0 +1,14 @@
+{"date":"27/04/2020_11:28:22","record":{"agent":"UGRStudent231","status":"CREATED"}}
+{"date":"27/04/2020_11:28:32","record":{"agent":"UGRStudent231","status":"INITIATED"}}
+{"date":"27/04/2020_11:28:32","record":{"agent":"UGRStudent231","status":"Checking-in in the platform"}}
+{"date":"27/04/2020_11:28:32","record":{"agent":"UGRStudent231","status":"Sending ACLM","body":{"performative":"SUBSCRIBE","sender":"UGRStudent231","receiver":"IdentityManager","protocol":"","conversation":"CheckIn","in-reply-to":"","reply-with":"213.194.187.36","content":""}}}
+{"date":"27/04/2020_11:28:32","record":{"agent":"UGRStudent231","status":"Receiving ACLM","body":{"performative":"CONFIRM","sender":"IdentityManager","receiver":"UGRStudent231","protocol":"","conversation":"CheckIn","in-reply-to":"213.194.187.36","reply-with":"","content":{"result":"OK"}}}}
+{"date":"27/04/2020_11:28:32","record":{"agent":"UGRStudent231","status":"Checked-in in the platform"}}
+{"date":"27/04/2020_11:28:32","record":{"agent":"UGRStudent231","status":"EXECUTING"}}
+{"date":"27/04/2020_11:28:32","record":{"agent":"UGRStudent231","status":"Checking existing files..."}}
+{"date":"27/04/2020_11:28:32","record":{"agent":"UGRStudent231","status":"No cardID found!"}}
+{"date":"27/04/2020_11:28:32","record":{"agent":"UGRStudent231","status":"No html found!"}}
+{"date":"27/04/2020_11:28:39","record":{"agent":"UGRStudent231","status":"Over!"}}
+{"date":"27/04/2020_11:28:39","record":{"agent":"UGRStudent231","status":"ENDING"}}
+{"date":"27/04/2020_11:28:39","record":{"agent":"UGRStudent231","status":"Checking-out in the platform"}}
+{"date":"27/04/2020_11:28:39","record":{"agent":"UGRStudent231","status":"Sending ACLM","body":{"performative":"CANCEL","sender":"UGRStudent231","receiver":"IdentityManager","protocol":"","conversation":"CheckOut","in-reply-to":"","reply-with":"","content":""}}}

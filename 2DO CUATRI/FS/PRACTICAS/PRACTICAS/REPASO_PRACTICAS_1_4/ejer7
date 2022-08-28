@@ -1,0 +1,22 @@
+#!/bin/bash
+# Titulo:       practicas1-4
+# Fecha:        21/3/2020
+# Autor:        David Muñoz Sánchez
+# Versión:      1.0
+# Descripción:  Guiones para las prácticas de repaso 1 - 4
+# Opciones:     Ninguna
+# Uso:          
+
+a=$1
+b=$2
+
+if ! [ $# == 2 ]; then echo "Tienes que introducir dos argumentos, un direcorio y un archivo" && exit 1; fi
+
+if [[ -e $2 ]]; then head -n 3 $2 > salida.txt && echo "He creado un archivo salida.txt y he almacenado las tres primeras lineas de tu archivo"; 
+                    else echo "Error"; fi
+                    
+if [[ -d $1 ]]; then echo "Hay " `ls -p $1 | grep -v / | wc -l` " archivos."; else mkdir $1; fi
+
+find $1 -type f -readable >> salida.txt
+
+echo "De un total de " `ls -p $1 | grep -v / | wc -l` " archivos, hay " `find $1 -type f -readable | wc -l` " que se pueden leer."

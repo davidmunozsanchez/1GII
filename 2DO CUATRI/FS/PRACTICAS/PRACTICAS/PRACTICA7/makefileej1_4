@@ -1,0 +1,14 @@
+Practica7: main2.o hello.o factorial.o libmatespro.a
+	g++ -o Practica7 main2.o hello.o factorial.o libmatespro.a
+
+main2.o: main2.cpp
+	g++-c main2.cpp
+
+hello.o factorial.o: hello.cpp factorial.cpp functions.h
+	g++-c hello.cpp factorial.cpp
+
+libmatespro.a: tan.o sin.o cos.o
+	ar -rvs libmatespro.a tan.o sin.o cos.o
+
+tan.o sin.o cos.o: tan.cpp sin.cpp cos.cpp mates.h
+	g++ -c tan.cpp sin.cpp cos.cpp

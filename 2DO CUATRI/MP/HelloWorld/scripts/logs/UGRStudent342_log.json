@@ -1,0 +1,19 @@
+{"date":"27/04/2020_03:49:26","record":{"agent":"UGRStudent342","status":"CREATED"}}
+{"date":"27/04/2020_03:49:28","record":{"agent":"UGRStudent342","status":"INITIATED"}}
+{"date":"27/04/2020_03:49:28","record":{"agent":"UGRStudent342","status":"Checking-in in the platform"}}
+{"date":"27/04/2020_03:49:28","record":{"agent":"UGRStudent342","status":"Sending ACLM","body":{"performative":"SUBSCRIBE","sender":"UGRStudent342","receiver":"IdentityManager","protocol":"","conversation":"CheckIn","in-reply-to":"","reply-with":"2.138.46.220","content":""}}}
+{"date":"27/04/2020_03:49:28","record":{"agent":"UGRStudent342","status":"Receiving ACLM","body":{"performative":"CONFIRM","sender":"IdentityManager","receiver":"UGRStudent342","protocol":"","conversation":"CheckIn","in-reply-to":"2.138.46.220","reply-with":"","content":{"result":"OK"}}}}
+{"date":"27/04/2020_03:49:28","record":{"agent":"UGRStudent342","status":"Checked-in in the platform"}}
+{"date":"27/04/2020_03:49:28","record":{"agent":"UGRStudent342","status":"EXECUTING"}}
+{"date":"27/04/2020_03:49:28","record":{"agent":"UGRStudent342","status":"Checking existing files..."}}
+{"date":"27/04/2020_03:49:28","record":{"agent":"UGRStudent342","status":"No cardID found!"}}
+{"date":"27/04/2020_03:49:28","record":{"agent":"UGRStudent342","status":"No html found!"}}
+{"date":"27/04/2020_03:50:15","record":{"agent":"UGRStudent342","status":"Checking existing files..."}}
+{"date":"27/04/2020_03:50:15","record":{"agent":"UGRStudent342","status":"No cardID found!"}}
+{"date":"27/04/2020_03:50:15","record":{"agent":"UGRStudent342","status":"Found 1 htmls files "}}
+{"date":"27/04/2020_03:50:15","record":{"agent":"UGRStudent342","status":"0) fake_anatoli.html is a valid Prado personal object"}}
+{"date":"27/04/2020_03:50:15","record":{"agent":"UGRStudent342","status":"Found 1 valid Prado Objects"}}
+{"date":"27/04/2020_03:50:40","record":{"agent":"UGRStudent342","status":"Over!"}}
+{"date":"27/04/2020_03:50:40","record":{"agent":"UGRStudent342","status":"ENDING"}}
+{"date":"27/04/2020_03:50:40","record":{"agent":"UGRStudent342","status":"Checking-out in the platform"}}
+{"date":"27/04/2020_03:50:40","record":{"agent":"UGRStudent342","status":"Sending ACLM","body":{"performative":"CANCEL","sender":"UGRStudent342","receiver":"IdentityManager","protocol":"","conversation":"CheckOut","in-reply-to":"","reply-with":"","content":""}}}

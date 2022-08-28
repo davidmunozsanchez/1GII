@@ -1,0 +1,21 @@
+============================================================================================
+USO DE SCRIPTS DE EXAMEN
+============================================================================================
+
+./validaFicheros.sh 
+	-> Verifica que los ficheros de salida generados son correctos.
+	-> Compara: salida_X.in con val_salida_X.in
+	-> Compara: salida_X.out con val_salida_X.out
+
+Si ambos coinciden, se muestra CORRECTO!
+Si no coinciden, se muestra ERROR.
+
+NOTA: X hace referencia al digito obtenido aleatoriamente por el codigo a través de la IP.
+
+============================================================================================
+
+./ejecutaValgrind.sh
+	-> Compila el programa y lo ejecuta dentro del entorno de valgrind.
+
+./crearZIPexamen.sh
+	-> Crea el zip

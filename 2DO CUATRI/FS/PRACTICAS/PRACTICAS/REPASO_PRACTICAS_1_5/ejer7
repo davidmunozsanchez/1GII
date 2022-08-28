@@ -1,0 +1,24 @@
+#!/bin/bash
+# Titulo:       practicas1-5
+# Fecha:        14/4/2020
+# Autor:        David Muñoz Sánchez
+# Versión:      1.0
+# Descripción:  Guiones para las prácticas de repaso 1 - 5
+# Opciones:     Ninguna
+# Uso:          
+
+a=$1
+b=$2
+c=$3
+directorio_actual=`pwd`
+
+if ! [ $# == 3 ]; then echo "Tienes que introducir tres argumentos, un directorio, una letra y un archivo" && exit 1; fi
+                                                                                            
+if ! [ -d $a ]; then mkdir -p $a; fi
+
+if ! [ $b == "f" ] && ! [ $b == "d" ]; then echo "Tienes que introducir como segundo parámetro una f o una d" && exit 1; fi
+
+(grep -r -n -e $3 $1) > $directorio_actual/resultado.txt
+
+(find $1 -type $b) >> $directorio_actual/resultado.txt
+

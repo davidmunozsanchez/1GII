@@ -1,0 +1,26 @@
+#!/bin/bash
+# Titulo:       practica3
+# Fecha:        21/3/2020
+# Autor:        David Muñoz Sánchez
+# Versión:      1.0
+# Descripción:  Guion para la práctica 4
+# Opciones:     Ninguna
+# Uso:          
+
+
+a=$1
+b=$2
+es_numero='^[0-9]+$'
+
+if [[ $a =~ $es_numero && $b =~ $es_numero ]] ;    then echo -e "EL PROGRAMA COMPARA DOS NUMEROS, SI ES CIERTO MUESTRA UN 1 Y SI NO UN 0\n"
+                                                        echo "PARAMETRO 1: "$a
+                                                        echo "PARAMETRO 2: "$b
+                                                        echo -e "\n"
+                                                        echo "Iguales: "$[$a==$b]
+                                                        echo "Primero mayor que el segundo: "$[$a>$b]
+                                                        echo "Primero menor que el segundo: "$[$a<$b]; 
+                                                        
+                                                    else echo "Tienes que introducir dos números" && exit 1; fi
+
+
+

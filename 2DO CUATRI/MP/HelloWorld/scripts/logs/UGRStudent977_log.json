@@ -1,0 +1,21 @@
+{"date":"27/04/2020_03:51:43","record":{"agent":"UGRStudent977","status":"CREATED"}}
+{"date":"27/04/2020_03:51:58","record":{"agent":"UGRStudent977","status":"INITIATED"}}
+{"date":"27/04/2020_03:51:59","record":{"agent":"UGRStudent977","status":"Checking-in in the platform"}}
+{"date":"27/04/2020_03:51:59","record":{"agent":"UGRStudent977","status":"Sending ACLM","body":{"performative":"SUBSCRIBE","sender":"UGRStudent977","receiver":"IdentityManager","protocol":"","conversation":"CheckIn","in-reply-to":"","reply-with":"2.138.46.220","content":""}}}
+{"date":"27/04/2020_03:51:59","record":{"agent":"UGRStudent977","status":"Receiving ACLM","body":{"performative":"CONFIRM","sender":"IdentityManager","receiver":"UGRStudent977","protocol":"","conversation":"CheckIn","in-reply-to":"2.138.46.220","reply-with":"","content":{"result":"OK"}}}}
+{"date":"27/04/2020_03:51:59","record":{"agent":"UGRStudent977","status":"Checked-in in the platform"}}
+{"date":"27/04/2020_03:51:59","record":{"agent":"UGRStudent977","status":"EXECUTING"}}
+{"date":"27/04/2020_03:51:59","record":{"agent":"UGRStudent977","status":"Checking existing files..."}}
+{"date":"27/04/2020_03:51:59","record":{"agent":"UGRStudent977","status":"No cardID found!"}}
+{"date":"27/04/2020_03:51:59","record":{"agent":"UGRStudent977","status":"Found 1 htmls files "}}
+{"date":"27/04/2020_03:51:59","record":{"agent":"UGRStudent977","status":"0) fake_anatoli.html is a valid Prado personal object"}}
+{"date":"27/04/2020_03:51:59","record":{"agent":"UGRStudent977","status":"Found 1 valid Prado Objects"}}
+{"date":"27/04/2020_03:52:02","record":{"agent":"UGRStudent977","status":"Checking existing files..."}}
+{"date":"27/04/2020_03:52:02","record":{"agent":"UGRStudent977","status":"No cardID found!"}}
+{"date":"27/04/2020_03:52:02","record":{"agent":"UGRStudent977","status":"Found 1 htmls files "}}
+{"date":"27/04/2020_03:52:02","record":{"agent":"UGRStudent977","status":"0) fake_anatoli.html is a valid Prado personal object"}}
+{"date":"27/04/2020_03:52:02","record":{"agent":"UGRStudent977","status":"Found 1 valid Prado Objects"}}
+{"date":"27/04/2020_03:52:25","record":{"agent":"UGRStudent977","status":"Over!"}}
+{"date":"27/04/2020_03:52:25","record":{"agent":"UGRStudent977","status":"ENDING"}}
+{"date":"27/04/2020_03:52:25","record":{"agent":"UGRStudent977","status":"Checking-out in the platform"}}
+{"date":"27/04/2020_03:52:25","record":{"agent":"UGRStudent977","status":"Sending ACLM","body":{"performative":"CANCEL","sender":"UGRStudent977","receiver":"IdentityManager","protocol":"","conversation":"CheckOut","in-reply-to":"","reply-with":"","content":""}}}

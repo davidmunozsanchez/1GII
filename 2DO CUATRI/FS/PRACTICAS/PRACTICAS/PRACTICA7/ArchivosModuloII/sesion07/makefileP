@@ -1,0 +1,24 @@
+# Fichero makefile que va a ser modificado
+# Autor: David Muñoz Sánchez
+# Versión final
+
+INCLU = ./
+COM = g++
+OBJ = $@
+DEPEN = $^
+
+Practica7: main2.o hello.o factorial.o libmatespro.a
+	$(COM) -o $(OBJ) $(DEPEN)
+
+main2.o: main2.cpp
+	$(COM) -c $(DEPEN)
+
+hello.o factorial.o: hello.cpp factorial.cpp $(INCLU)/functions.h
+	$(COM) -I$(INCLU) -c $(DEPEN)
+
+libmatespro.a: tan.o sin.o cos.o
+	ar -rvs $(OBJ) $(DEPEN)
+
+tan.o sin.o cos.o: tan.cpp sin.cpp cos.cpp $(INCLU)/mates.h
+	$(COM) -I$(INCLU) -c $(DEPEN)
+

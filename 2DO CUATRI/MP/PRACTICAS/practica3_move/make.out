@@ -1,0 +1,11 @@
+"make" -f nbproject/Makefile-Debug.mk QMAKE= SUBPROJECTS= .build-conf
+make[1]: Entering directory '/home/davidms_83/Documentos/MP/PRACTICAS/practica3_move'
+"make"  -f nbproject/Makefile-Debug.mk dist/Debug/GNU-Linux/practica3_move
+make[2]: Entering directory '/home/davidms_83/Documentos/MP/PRACTICAS/practica3_move'
+mkdir -p build/Debug/GNU-Linux/src
+rm -f "build/Debug/GNU-Linux/src/main.o.d"
+g++    -c -g -I/usr/local/include -Iinclude -std=c++14 -MMD -MP -MF "build/Debug/GNU-Linux/src/main.o.d" -o build/Debug/GNU-Linux/src/main.o src/main.cpp
+mkdir -p dist/Debug/GNU-Linux
+g++     -o dist/Debug/GNU-Linux/practica3_move build/Debug/GNU-Linux/src/bag.o build/Debug/GNU-Linux/src/main.o build/Debug/GNU-Linux/src/move.o build/Debug/GNU-Linux/src/player.o /usr/local/lib/liblanguage.a /usr/local/lib/libwordlist.a
+make[2]: Leaving directory '/home/davidms_83/Documentos/MP/PRACTICAS/practica3_move'
+make[1]: Leaving directory '/home/davidms_83/Documentos/MP/PRACTICAS/practica3_move'

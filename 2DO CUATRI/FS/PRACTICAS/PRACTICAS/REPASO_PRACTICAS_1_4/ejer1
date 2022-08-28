@@ -1,0 +1,11 @@
+#!/bin/bash
+# Titulo:       practicas1-4
+# Fecha:        21/3/2020
+# Autor:        David Muñoz Sánchez
+# Versión:      1.0
+# Descripción:  Guiones para las prácticas de repaso 1 - 4
+# Opciones:     Ninguna
+# Uso:          
+
+
+mkdir -p repaso/{prueba1/ejercicio1,prueba2}

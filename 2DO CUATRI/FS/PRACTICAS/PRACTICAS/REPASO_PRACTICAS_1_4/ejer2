@@ -1,0 +1,15 @@
+#!/bin/bash
+# Titulo:       practicas1-4
+# Fecha:        21/3/2020
+# Autor:        David Muñoz Sánchez
+# Versión:      1.0
+# Descripción:  Guiones para las prácticas de repaso 1 - 4
+# Opciones:     Ninguna
+# Uso:          
+
+#ADVERTENCIA, EL EJERCICIO PIDE UNA LINEA, PERO DEBEMOS ESTAR SITUADOS EN 
+#EL DIRECTORIO EJERCICIO1, ASI QUE ANIADO ESTE COMANDO
+cd /home/davidms_83/repaso/prueba1/ejercicio1
+
+#COMIENZA EL EJERCICIO
+touch arch1.txt arch2.txt arch3.txt arch4.pdf  arch5.pdf

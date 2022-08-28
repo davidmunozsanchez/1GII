@@ -1,0 +1,4 @@
+Coincidencia en el archivo binario /home/davidms_83/Descargas/orig_375e4e6f2b5beb470f9c56324220644f.mp4
+/home/davidms_83/Descargas/ey:1:hola
+/home/davidms_83/Descargas/ey:3:hola
+/home/davidms_83/Descargas/

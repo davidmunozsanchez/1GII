@@ -1,0 +1,10 @@
+all: hello.o libmatespro.a
+	
+libmatespro.a: tan.o sin.o cos.o
+	ar -rvs libmatespro.a tan.o sin.o cos.o
+
+hello.o: hello.cpp functions.h
+	g++ -c hello.cpp 
+tan.o sin.o cos.o: tan.cpp sin.cpp cos.cpp mates.h
+	g++ -c tan.cpp sin.cpp cos.cpp
+

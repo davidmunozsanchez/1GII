@@ -1,0 +1,10 @@
+#!/bin/bash
+# Titulo:       practicas1-4
+# Fecha:        21/3/2020
+/home/davidms_83/Documentos/FS/REPASO_PRACTICAS_1_4/ejer6
+/home/davidms_83/Documentos/FS/REPASO_PRACTICAS_1_4/ejer1
+/home/davidms_83/Documentos/FS/REPASO_PRACTICAS_1_4/ejer4
+/home/davidms_83/Documentos/FS/REPASO_PRACTICAS_1_4/ejer5
+/home/davidms_83/Documentos/FS/REPASO_PRACTICAS_1_4/ejer7
+/home/davidms_83/Documentos/FS/REPASO_PRACTICAS_1_4/ejer3
+/home/davidms_83/Documentos/FS/REPASO_PRACTICAS_1_4/ejer2

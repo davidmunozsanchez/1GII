@@ -1,0 +1,12 @@
+#!/bin/bash
+# Titulo:       practica3
+# Fecha:        3/3/2020
+# Autor:        David Muñoz Sánchez
+# Versión:      1.0
+# Descripción:  Guion para la práctica 3
+# Opciones:     Ninguna
+# Uso:          listar los archivos de cierto directorio accedidos en los últimos x días
+
+printf "Los archivos del directorio $1 que han sido accedidos en los últimos $2 días son:\n"
+
+find $1 -atime -$2

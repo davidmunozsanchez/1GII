@@ -1,0 +1,11 @@
+all: hello.o tan.o sin.o cos.o
+	
+hello.o: hello.cpp functions.h
+	g++ -c hello.cpp 
+tan.o: tan.cpp mates.h
+	g++ -c tan.cpp
+sin.o: sin.cpp mates.h
+	g++ -c sin.cpp
+cos.o: cos.cpp mates.h
+	g++ -c cos.cpp
+
